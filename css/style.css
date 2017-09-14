@@ -1,0 +1,116 @@
+body{
+    color: #6d6e71;
+    font-family:sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 18px;
+}
+#how_it_works{
+    margin-top: 5px;
+}
+.intro-text{
+    font-size: 24px;
+    margin-left:20px;
+}
+.intro-button{
+    font-size: 24px;
+    text-align: center;
+    border-radius: 24px;
+}
+.link{
+    color: coral;
+    font-weight: bold;
+}
+.sectionTwo{
+    margin-left: 30px;
+    padding: 0;
+    box-shadow: 0 0 8px grey;
+}
+.sectionThree{
+    padding-top: 20px;
+}
+.sectionThree p{
+    padding-left: 20px;
+}
+.sectionFour{
+    padding-top: 10px;
+}
+.sectionFive{
+   font-size: 20px;
+    margin-left: 20px;
+}
+.bubble {
+  bottom: 0;
+  padding: 20px;
+  margin-bottom: 60px;
+  background: white;
+  border-radius: 24px;
+}
+
+/* For the bubble tail */
+.bubble:after {
+    content: "";
+    align-content: center;
+    position: absolute;
+    bottom: -14px;
+    right: 20px;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: white transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+article{
+    padding:20px;
+}
+.navMenu{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+h1, h2, h3, h4{
+    color: #028482;
+    font-family: "Merriweather",serif;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+h2{
+    float: left;
+    padding-left:20px;
+}
+.jumbotron{
+    background-image: url(https://participants.ie/wp-content/uploads/2016/10/participants-hero.jpg);
+    background-size: cover;
+}
+.headerCenteredText{
+    margin-top: 50px;
+    text-align: center;
+    color:white;
+}
+.btn-lg.round{
+    border-radius: 24px;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-gray{
+    background-color: lightgrey;
+    padding-bottom: 50px;
+}
+footer{
+    background: #028482;
+    font-family: "adelle-sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    padding-top: 20px;
+    
+}
+#footerLogo{
+    margin-top: 20px;
+}
+footer a {
+   text-decoration: none;
+    font-weight: 400;
+    color: white;
+}
